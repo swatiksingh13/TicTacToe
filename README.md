@@ -12,13 +12,13 @@ This is a customizable Tic-Tac-Toe game implemented in Java with multiple diffic
 - Modular Design: Easily extendable with new strategies or difficulty levels.
 
 ## Classes Overview
--- GameController.java
+ **GameController**
 This class is responsible for managing the interaction between the user and the GameService. It initializes the game, accepts moves, and displays the game board.
 
--- GameService.java
+ **GameService**
 Handles all the core game logic such as starting a new game, making moves, checking for the winner, and managing the game state.
 
--- Bot Difficulty Levels
+ **Bot Difficulty Levels**
 
 EasyBotPlayingStrategy: Plays randomly.
 
@@ -26,7 +26,7 @@ MediumBotPlayingStrategy: Makes somewhat smarter moves but can still make mistak
 
 HardBotPlayingStrategy: Tries to win or block every turn.
 
--- Winning Strategies
+ **Winning Strategies**
 
 RowWinningStrategy: Checks if all cells in a row belong to the same player.
 
@@ -37,5 +37,5 @@ DiagonalWinningStrategy: Checks for a diagonal win condition.
 ## Tech Stack 🔧
 - **Java**: Core programming language used
 - **OOP Principles**: To ensure clean and modular code
-- **Design Patterns**: Includes the **Strategy** and **Controller** patterns for game logic
+- **Design Patterns**: Includes the **Strategy** , **Builder** & **MVC** patterns for game logic
 
