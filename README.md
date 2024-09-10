@@ -1,7 +1,5 @@
-# TicTacToe
-
 # Tic-Tac-Toe Game 🎮
-
+---
 This is a customizable Tic-Tac-Toe game implemented in Java with multiple difficulty levels for bot gameplay. The game allows both human and bot players, with different winning strategies.
 
 ## Features ✨
@@ -20,19 +18,19 @@ Handles all the core game logic such as starting a new game, making moves, check
 
  **Bot Difficulty Levels**
 
-EasyBotPlayingStrategy: Plays randomly.
+*EasyBotPlayingStrategy*: Plays randomly.
 
-MediumBotPlayingStrategy: Makes somewhat smarter moves but can still make mistakes.
+*MediumBotPlayingStrategy*: Makes somewhat smarter moves but can still make mistakes.
 
-HardBotPlayingStrategy: Tries to win or block every turn.
+*HardBotPlayingStrategy*: Tries to win or block every turn.
 
  **Winning Strategies**
 
-RowWinningStrategy: Checks if all cells in a row belong to the same player.
+*RowWinningStrategy*: Checks if all cells in a row belong to the same player.
 
-ColumnWinningStrategy: Checks if all cells in a column belong to the same player.
+*ColumnWinningStrategy*: Checks if all cells in a column belong to the same player.
 
-DiagonalWinningStrategy: Checks for a diagonal win condition.
+*DiagonalWinningStrategy*: Checks for a diagonal win condition.
 
 ## Tech Stack 🔧
 - **Java**: Core programming language used
